@@ -110,4 +110,7 @@ endif
 packadd matchit
 
 "add by jchen 
-set nu
+set nu ""开启行号
+colorscheme molokai "设置配色
+set autoindent "设置自动缩进
+set shiftwidth=4 "设置缩进的空格数为4
