@@ -115,6 +115,7 @@ set nu ""开启行号
 colorscheme molokai "设置配色
 
 set shiftwidth=4 "设置缩进的空格数为4
+set softtabstop=4 "在编辑模式的时候按退格键退回缩进的长度
 
 " 打开语法高亮
 syntax on
