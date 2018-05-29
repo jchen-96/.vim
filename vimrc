@@ -132,3 +132,6 @@ set nocp
 set nobackup
 set nowb
 set noswapfile
+
+"配置回到插入模式的快捷键
+inoremap jj <Esc>
