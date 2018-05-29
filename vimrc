@@ -111,6 +111,24 @@ packadd matchit
 
 "add by jchen 
 set nu ""开启行号
+
 colorscheme molokai "设置配色
-set autoindent "设置自动缩进
+
 set shiftwidth=4 "设置缩进的空格数为4
+
+" 打开语法高亮
+syntax on
+
+"打开文件类型检测功能
+filetype on
+
+"不同的文件类型采用不同的缩进
+filetype indent on
+
+"关闭vi模式
+set nocp
+
+"取消自动诶分及产生swap文件
+set nobackup
+set nowb
+set noswapfile
